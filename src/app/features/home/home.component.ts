@@ -13,7 +13,7 @@ import { ThemeService } from '../../core/theme/theme.service';
       <header class="bg-atlas-teal dark:bg-atlas-navy text-white py-4 px-6">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
           <div class="flex items-center gap-3">
-            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-10" />
+            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-20" />
             <h1 class="text-2xl font-bold">ATLAS</h1>
           </div>
           <div class="flex gap-3">

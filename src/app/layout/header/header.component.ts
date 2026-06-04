@@ -21,7 +21,7 @@ import { IconComponent } from '../../shared/components/ui-icon/icon.component';
             <app-icon name="menu" class="text-white" />
           </button>
           <a routerLink="/dashboard" class="flex items-center gap-2">
-            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-8" />
+            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-16" />
           </a>
         </div>
 

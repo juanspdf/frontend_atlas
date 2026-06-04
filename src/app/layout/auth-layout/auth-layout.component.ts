@@ -11,7 +11,7 @@ import { IconComponent } from '../../shared/components/ui-icon/icon.component';
     <div class="min-h-screen flex items-center justify-center bg-[var(--bg-primary)] p-6">
       <div class="w-full max-w-md">
         <div class="text-center mb-10">
-          <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-24 mx-auto mb-5" />
+          <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-48 mx-auto mb-5" />
           <p class="text-[var(--text-secondary)] text-sm">
             Herramienta Adaptativa para Auditoría Legislativa y Estándares
           </p>
