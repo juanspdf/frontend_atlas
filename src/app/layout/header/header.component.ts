@@ -11,7 +11,7 @@ import { IconComponent } from '../../shared/components/ui-icon/icon.component';
   standalone: true,
   imports: [RouterLink, IconComponent, ButtonComponent, BadgeComponent],
   template: `
-    <header class="fixed top-0 left-0 right-0 h-48 bg-atlas-teal dark:bg-atlas-navy border-b border-[var(--border-color)] z-40">
+    <header class="fixed top-0 left-0 right-0 h-24 bg-atlas-teal dark:bg-atlas-navy border-b border-[var(--border-color)] z-40">
       <div class="flex items-center justify-between h-full px-4">
         <div class="flex items-center gap-4">
           <button
@@ -21,7 +21,7 @@ import { IconComponent } from '../../shared/components/ui-icon/icon.component';
             <app-icon name="menu" class="text-white" />
           </button>
           <a routerLink="/dashboard" class="flex items-center gap-2">
-            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-48" />
+            <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-24" />
           </a>
         </div>
 

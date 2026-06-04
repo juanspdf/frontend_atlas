@@ -13,7 +13,7 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
         [sidebarOpen]="sidebarOpen()"
         (toggleSidebar)="sidebarOpen.update(v => !v)"
       />
-      <div class="flex pt-48">
+      <div class="flex pt-24">
         <app-sidebar [open]="sidebarOpen()" />
         <main
           class="flex-1 p-8 transition-all duration-300"
