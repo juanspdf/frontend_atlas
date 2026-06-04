@@ -16,7 +16,7 @@ interface NavItem {
   imports: [RouterLink, RouterLinkActive, IconComponent],
   template: `
     <aside
-      class="fixed left-0 top-16 bottom-0 w-64 bg-[var(--bg-card)] border-r border-[var(--border-color)] overflow-y-auto transition-transform duration-300 z-30"
+      class="fixed left-0 top-48 bottom-0 w-64 bg-[var(--bg-card)] border-r border-[var(--border-color)] overflow-y-auto transition-transform duration-300 z-30"
       [class.-translate-x-full]="!open()"
     >
       <nav class="p-4">
