@@ -10,8 +10,14 @@ import { IconComponent } from '../../shared/components/ui-icon/icon.component';
   template: `
     <div class="min-h-screen flex items-center justify-center bg-[var(--bg-primary)] p-6">
       <div class="w-full max-w-md">
-        <div class="text-center mb-10">
-          <img [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'" alt="ATLAS" class="h-[36rem] mx-auto mb-5" />
+        <div class="text-center mb-8">
+          <div [class]="themeService.isDark() ? 'h-64 sm:h-80 overflow-hidden flex justify-center mb-3' : 'flex justify-center mb-3'">
+            <img
+              [src]="themeService.isDark() ? 'logo-placeholder-dark.png' : 'logo-placeholder-light.png'"
+              alt="ATLAS"
+              [class]="themeService.isDark() ? 'h-[24rem] sm:h-[30rem] max-w-full object-contain object-top' : 'h-64 max-w-full object-contain'"
+            />
+          </div>
           <p class="text-[var(--text-secondary)] text-sm">
             Herramienta Adaptativa para Auditoría Legislativa y Estándares
           </p>
